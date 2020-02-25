@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sum of 30 numbers % 7 == 0</title>
+</head>
+<body>
+<script>
+    let sum = 0;
+    let count = 0;
+    for (let i = 7; count < 30; i += 7) {
+        if (i % 7 === 0) {
+            sum += i;
+            count++;
+        }
+    }
+    alert("Tong 30 so tu nhien chia het xho 7 la " + sum)
+</script>
+</body>
+</html>
